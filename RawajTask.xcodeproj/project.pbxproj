@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308D88938795FC63E676BCFA /* Pods_RawajTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB8A538782D4838F408E9F1 /* Pods_RawajTask.framework */; };
+		418E9883D5805948E541A38A /* Pods_RawajTask_RawajTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13A8C67782C429A9F87A4AF /* Pods_RawajTask_RawajTaskUITests.framework */; };
+		B0637B942857BA7D00303D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637B932857BA7D00303D48 /* AppDelegate.swift */; };
+		B0637B962857BA7D00303D48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637B952857BA7D00303D48 /* SceneDelegate.swift */; };
+		B0637B982857BA7D00303D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637B972857BA7D00303D48 /* ViewController.swift */; };
+		B0637B9B2857BA7D00303D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0637B992857BA7D00303D48 /* Main.storyboard */; };
+		B0637B9E2857BA7D00303D48 /* RawajTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0637B9C2857BA7D00303D48 /* RawajTask.xcdatamodeld */; };
+		B0637BA02857BA7E00303D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0637B9F2857BA7E00303D48 /* Assets.xcassets */; };
+		B0637BA32857BA7E00303D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0637BA12857BA7E00303D48 /* LaunchScreen.storyboard */; };
+		B0637BAE2857BA7F00303D48 /* RawajTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BAD2857BA7F00303D48 /* RawajTaskTests.swift */; };
+		B0637BB82857BA7F00303D48 /* RawajTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BB72857BA7F00303D48 /* RawajTaskUITests.swift */; };
+		B0637BBA2857BA7F00303D48 /* RawajTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BB92857BA7F00303D48 /* RawajTaskUITestsLaunchTests.swift */; };
+		B0637BC92857BAB500303D48 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BC72857BAB500303D48 /* Request.swift */; };
+		B0637BCA2857BAB500303D48 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BC82857BAB500303D48 /* EndPoint.swift */; };
+		B0637BD62857BACB00303D48 /* COCHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BCD2857BACB00303D48 /* COCHBaseViewController.swift */; };
+		B0637BDA2857BACB00303D48 /* ShowImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BD42857BACB00303D48 /* ShowImageCell.swift */; };
+		B0637BDB2857BACB00303D48 /* ShowingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BD52857BACB00303D48 /* ShowingImageView.swift */; };
+		B0637BEC2857BB6800303D48 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BE52857BB6800303D48 /* LanguageManager.swift */; };
+		B0637BED2857BB6800303D48 /* UIApplication+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BE62857BB6800303D48 /* UIApplication+++.swift */; };
+		B0637BEE2857BB6800303D48 /* UserDefaults+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BE72857BB6800303D48 /* UserDefaults+++.swift */; };
+		B0637BEF2857BB6800303D48 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BE82857BB6800303D48 /* ThemeManager.swift */; };
+		B0637BF02857BB6800303D48 /* PinterestLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BE92857BB6800303D48 /* PinterestLayoutDelegate.swift */; };
+		B0637BF12857BB6800303D48 /* UIView+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BEA2857BB6800303D48 /* UIView+++.swift */; };
+		B0637BF22857BB6800303D48 /* UIWindow+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BEB2857BB6800303D48 /* UIWindow+++.swift */; };
+		B0637BF92857BB7400303D48 /* UIColor+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BF42857BB7400303D48 /* UIColor+++.swift */; };
+		B0637BFA2857BB7400303D48 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BF52857BB7400303D48 /* Theme.swift */; };
+		B0637BFB2857BB7400303D48 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BF72857BB7400303D48 /* LightTheme.swift */; };
+		B0637BFC2857BB7400303D48 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637BF82857BB7400303D48 /* DarkTheme.swift */; };
+		B0637C012857C44000303D48 /* nytimesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C002857C44000303D48 /* nytimesModel.swift */; };
+		B0637C032857CA7500303D48 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C022857CA7500303D48 /* MainViewModel.swift */; };
+		B0637C062857D06300303D48 /* ArticlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C042857D06300303D48 /* ArticlesCell.swift */; };
+		B0637C072857D06300303D48 /* ArticlesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0637C052857D06300303D48 /* ArticlesCell.xib */; };
+		B0637C092857DF4300303D48 /* UILabel+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C082857DF4300303D48 /* UILabel+++.swift */; };
+		B0637C0B2857E54D00303D48 /* UIFont+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0637C0A2857E54D00303D48 /* UIFont+++.swift */; };
+		B0A8A5912859170F0055ADD6 /* UIStoryboard+++.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8A5902859170F0055ADD6 /* UIStoryboard+++.swift */; };
+		B0A8A5942859189D0055ADD6 /* ArticleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8A5932859189D0055ADD6 /* ArticleDetailsView.swift */; };
+		C7CB196A09706333A2F504AB /* Pods_RawajTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E84490040FCB51E3ABDE01C /* Pods_RawajTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0637BAA2857BA7F00303D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0637B882857BA7D00303D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0637B8F2857BA7D00303D48;
+			remoteInfo = RawajTask;
+		};
+		B0637BB42857BA7F00303D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0637B882857BA7D00303D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0637B8F2857BA7D00303D48;
+			remoteInfo = RawajTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB8A538782D4838F408E9F1 /* Pods_RawajTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RawajTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34704D15F78EB063662A0498 /* Pods-RawajTask-RawajTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTask-RawajTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-RawajTask-RawajTaskUITests/Pods-RawajTask-RawajTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		44AEF281049ECDEA861C793A /* Pods-RawajTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTask.debug.xcconfig"; path = "Target Support Files/Pods-RawajTask/Pods-RawajTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4D93589E559096BB77A52B9B /* Pods-RawajTask-RawajTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTask-RawajTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-RawajTask-RawajTaskUITests/Pods-RawajTask-RawajTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E3045499A01780349F3254F /* Pods-RawajTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTaskTests.release.xcconfig"; path = "Target Support Files/Pods-RawajTaskTests/Pods-RawajTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D8272B4C8C77A10AA8A99F8 /* Pods-RawajTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-RawajTaskTests/Pods-RawajTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E84490040FCB51E3ABDE01C /* Pods_RawajTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RawajTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0637B902857BA7D00303D48 /* RawajTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawajTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0637B932857BA7D00303D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0637B952857BA7D00303D48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0637B972857BA7D00303D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0637B9A2857BA7D00303D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0637B9D2857BA7D00303D48 /* RawajTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RawajTask.xcdatamodel; sourceTree = "<group>"; };
+		B0637B9F2857BA7E00303D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0637BA22857BA7E00303D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0637BA42857BA7E00303D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0637BA92857BA7F00303D48 /* RawajTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawajTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0637BAD2857BA7F00303D48 /* RawajTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawajTaskTests.swift; sourceTree = "<group>"; };
+		B0637BB32857BA7F00303D48 /* RawajTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawajTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0637BB72857BA7F00303D48 /* RawajTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawajTaskUITests.swift; sourceTree = "<group>"; };
+		B0637BB92857BA7F00303D48 /* RawajTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawajTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0637BC72857BAB500303D48 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B0637BC82857BAB500303D48 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		B0637BCD2857BACB00303D48 /* COCHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COCHBaseViewController.swift; sourceTree = "<group>"; };
+		B0637BD42857BACB00303D48 /* ShowImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImageCell.swift; sourceTree = "<group>"; };
+		B0637BD52857BACB00303D48 /* ShowingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowingImageView.swift; sourceTree = "<group>"; };
+		B0637BE52857BB6800303D48 /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		B0637BE62857BB6800303D48 /* UIApplication+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+++.swift"; sourceTree = "<group>"; };
+		B0637BE72857BB6800303D48 /* UserDefaults+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+++.swift"; sourceTree = "<group>"; };
+		B0637BE82857BB6800303D48 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		B0637BE92857BB6800303D48 /* PinterestLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayoutDelegate.swift; sourceTree = "<group>"; };
+		B0637BEA2857BB6800303D48 /* UIView+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+++.swift"; sourceTree = "<group>"; };
+		B0637BEB2857BB6800303D48 /* UIWindow+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+++.swift"; sourceTree = "<group>"; };
+		B0637BF42857BB7400303D48 /* UIColor+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+++.swift"; sourceTree = "<group>"; };
+		B0637BF52857BB7400303D48 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B0637BF72857BB7400303D48 /* LightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		B0637BF82857BB7400303D48 /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		B0637C002857C44000303D48 /* nytimesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nytimesModel.swift; sourceTree = "<group>"; };
+		B0637C022857CA7500303D48 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B0637C042857D06300303D48 /* ArticlesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesCell.swift; sourceTree = "<group>"; };
+		B0637C052857D06300303D48 /* ArticlesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesCell.xib; sourceTree = "<group>"; };
+		B0637C082857DF4300303D48 /* UILabel+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+++.swift"; sourceTree = "<group>"; };
+		B0637C0A2857E54D00303D48 /* UIFont+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+++.swift"; sourceTree = "<group>"; };
+		B0A8A5902859170F0055ADD6 /* UIStoryboard+++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+++.swift"; sourceTree = "<group>"; };
+		B0A8A5932859189D0055ADD6 /* ArticleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsView.swift; sourceTree = "<group>"; };
+		B8BF93A1E708BE1E25F117CF /* Pods-RawajTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RawajTask.release.xcconfig"; path = "Target Support Files/Pods-RawajTask/Pods-RawajTask.release.xcconfig"; sourceTree = "<group>"; };
+		D13A8C67782C429A9F87A4AF /* Pods_RawajTask_RawajTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RawajTask_RawajTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0637B8D2857BA7D00303D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308D88938795FC63E676BCFA /* Pods_RawajTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BA62857BA7F00303D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CB196A09706333A2F504AB /* Pods_RawajTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BB02857BA7F00303D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418E9883D5805948E541A38A /* Pods_RawajTask_RawajTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7CDBB2D623F403491E30A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8A538782D4838F408E9F1 /* Pods_RawajTask.framework */,
+				D13A8C67782C429A9F87A4AF /* Pods_RawajTask_RawajTaskUITests.framework */,
+				9E84490040FCB51E3ABDE01C /* Pods_RawajTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7193CFF123A2BDF9B1BB0468 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44AEF281049ECDEA861C793A /* Pods-RawajTask.debug.xcconfig */,
+				B8BF93A1E708BE1E25F117CF /* Pods-RawajTask.release.xcconfig */,
+				4D93589E559096BB77A52B9B /* Pods-RawajTask-RawajTaskUITests.debug.xcconfig */,
+				34704D15F78EB063662A0498 /* Pods-RawajTask-RawajTaskUITests.release.xcconfig */,
+				6D8272B4C8C77A10AA8A99F8 /* Pods-RawajTaskTests.debug.xcconfig */,
+				5E3045499A01780349F3254F /* Pods-RawajTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0637B872857BA7D00303D48 = {
+			isa = PBXGroup;
+			children = (
+				B0637B922857BA7D00303D48 /* RawajTask */,
+				B0637BAC2857BA7F00303D48 /* RawajTaskTests */,
+				B0637BB62857BA7F00303D48 /* RawajTaskUITests */,
+				B0637B912857BA7D00303D48 /* Products */,
+				7193CFF123A2BDF9B1BB0468 /* Pods */,
+				5B7CDBB2D623F403491E30A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0637B912857BA7D00303D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0637B902857BA7D00303D48 /* RawajTask.app */,
+				B0637BA92857BA7F00303D48 /* RawajTaskTests.xctest */,
+				B0637BB32857BA7F00303D48 /* RawajTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0637B922857BA7D00303D48 /* RawajTask */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BC62857BAB500303D48 /* NetWork */,
+				B0637BDC2857BB3B00303D48 /* ViewModels */,
+				B0637BCB2857BACB00303D48 /* View */,
+				B0637BDF2857BB5200303D48 /* Model */,
+				B0637BE42857BB6800303D48 /* UIExtentions */,
+				B0637BF32857BB7400303D48 /* Styles */,
+				B0637BFD2857BB8A00303D48 /* stroyBoards */,
+				B0637BFE2857BBC500303D48 /* Resources */,
+				B0637BFF2857BBD400303D48 /* Delegation */,
+				B0637BA42857BA7E00303D48 /* Info.plist */,
+				B0637B9C2857BA7D00303D48 /* RawajTask.xcdatamodeld */,
+			);
+			path = RawajTask;
+			sourceTree = "<group>";
+		};
+		B0637BAC2857BA7F00303D48 /* RawajTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BAD2857BA7F00303D48 /* RawajTaskTests.swift */,
+			);
+			path = RawajTaskTests;
+			sourceTree = "<group>";
+		};
+		B0637BB62857BA7F00303D48 /* RawajTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BB72857BA7F00303D48 /* RawajTaskUITests.swift */,
+				B0637BB92857BA7F00303D48 /* RawajTaskUITestsLaunchTests.swift */,
+			);
+			path = RawajTaskUITests;
+			sourceTree = "<group>";
+		};
+		B0637BC62857BAB500303D48 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BC72857BAB500303D48 /* Request.swift */,
+				B0637BC82857BAB500303D48 /* EndPoint.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		B0637BCB2857BACB00303D48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8A592285918740055ADD6 /* ArticleDetails */,
+				B0637BCC2857BACB00303D48 /* Baseview */,
+				B0637BCE2857BACB00303D48 /* MainView */,
+				B0637BD32857BACB00303D48 /* ImageSHow */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0637BCC2857BACB00303D48 /* Baseview */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BCD2857BACB00303D48 /* COCHBaseViewController.swift */,
+			);
+			path = Baseview;
+			sourceTree = "<group>";
+		};
+		B0637BCE2857BACB00303D48 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				B0637B972857BA7D00303D48 /* ViewController.swift */,
+				B0637BD02857BACB00303D48 /* Cell */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B0637BD02857BACB00303D48 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B0637C042857D06300303D48 /* ArticlesCell.swift */,
+				B0637C052857D06300303D48 /* ArticlesCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B0637BD32857BACB00303D48 /* ImageSHow */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BD42857BACB00303D48 /* ShowImageCell.swift */,
+				B0637BD52857BACB00303D48 /* ShowingImageView.swift */,
+			);
+			path = ImageSHow;
+			sourceTree = "<group>";
+		};
+		B0637BDC2857BB3B00303D48 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B0637C022857CA7500303D48 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B0637BDF2857BB5200303D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0637C002857C44000303D48 /* nytimesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0637BE42857BB6800303D48 /* UIExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8A58F2859170F0055ADD6 /* Storyboardinit */,
+				B0637C082857DF4300303D48 /* UILabel+++.swift */,
+				B0637C0A2857E54D00303D48 /* UIFont+++.swift */,
+				B0637BE52857BB6800303D48 /* LanguageManager.swift */,
+				B0637BE62857BB6800303D48 /* UIApplication+++.swift */,
+				B0637BE72857BB6800303D48 /* UserDefaults+++.swift */,
+				B0637BE82857BB6800303D48 /* ThemeManager.swift */,
+				B0637BE92857BB6800303D48 /* PinterestLayoutDelegate.swift */,
+				B0637BEA2857BB6800303D48 /* UIView+++.swift */,
+				B0637BEB2857BB6800303D48 /* UIWindow+++.swift */,
+			);
+			path = UIExtentions;
+			sourceTree = "<group>";
+		};
+		B0637BF32857BB7400303D48 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BF42857BB7400303D48 /* UIColor+++.swift */,
+				B0637BF52857BB7400303D48 /* Theme.swift */,
+				B0637BF62857BB7400303D48 /* Themes */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B0637BF62857BB7400303D48 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				B0637BF72857BB7400303D48 /* LightTheme.swift */,
+				B0637BF82857BB7400303D48 /* DarkTheme.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		B0637BFD2857BB8A00303D48 /* stroyBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B0637B992857BA7D00303D48 /* Main.storyboard */,
+				B0637BA12857BA7E00303D48 /* LaunchScreen.storyboard */,
+			);
+			path = stroyBoards;
+			sourceTree = "<group>";
+		};
+		B0637BFE2857BBC500303D48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0637B9F2857BA7E00303D48 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0637BFF2857BBD400303D48 /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				B0637B932857BA7D00303D48 /* AppDelegate.swift */,
+				B0637B952857BA7D00303D48 /* SceneDelegate.swift */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		B0A8A58F2859170F0055ADD6 /* Storyboardinit */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8A5902859170F0055ADD6 /* UIStoryboard+++.swift */,
+			);
+			path = Storyboardinit;
+			sourceTree = "<group>";
+		};
+		B0A8A592285918740055ADD6 /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B0A8A5932859189D0055ADD6 /* ArticleDetailsView.swift */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0637B8F2857BA7D00303D48 /* RawajTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0637BBD2857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTask" */;
+			buildPhases = (
+				3880660450057ECCAD38F38B /* [CP] Check Pods Manifest.lock */,
+				B0637B8C2857BA7D00303D48 /* Sources */,
+				B0637B8D2857BA7D00303D48 /* Frameworks */,
+				B0637B8E2857BA7D00303D48 /* Resources */,
+				849D858C0839C2224D14F399 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RawajTask;
+			productName = RawajTask;
+			productReference = B0637B902857BA7D00303D48 /* RawajTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0637BA82857BA7F00303D48 /* RawajTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0637BC02857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTaskTests" */;
+			buildPhases = (
+				AEE418D9A9286929D47F790A /* [CP] Check Pods Manifest.lock */,
+				B0637BA52857BA7F00303D48 /* Sources */,
+				B0637BA62857BA7F00303D48 /* Frameworks */,
+				B0637BA72857BA7F00303D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0637BAB2857BA7F00303D48 /* PBXTargetDependency */,
+			);
+			name = RawajTaskTests;
+			productName = RawajTaskTests;
+			productReference = B0637BA92857BA7F00303D48 /* RawajTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0637BB22857BA7F00303D48 /* RawajTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0637BC32857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTaskUITests" */;
+			buildPhases = (
+				E71D057E53115918CC3D86F5 /* [CP] Check Pods Manifest.lock */,
+				B0637BAF2857BA7F00303D48 /* Sources */,
+				B0637BB02857BA7F00303D48 /* Frameworks */,
+				B0637BB12857BA7F00303D48 /* Resources */,
+				DEF0A529F6AE44DB7328ABCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0637BB52857BA7F00303D48 /* PBXTargetDependency */,
+			);
+			name = RawajTaskUITests;
+			productName = RawajTaskUITests;
+			productReference = B0637BB32857BA7F00303D48 /* RawajTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0637B882857BA7D00303D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B0637B8F2857BA7D00303D48 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B0637BA82857BA7F00303D48 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B0637B8F2857BA7D00303D48;
+					};
+					B0637BB22857BA7F00303D48 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B0637B8F2857BA7D00303D48;
+					};
+				};
+			};
+			buildConfigurationList = B0637B8B2857BA7D00303D48 /* Build configuration list for PBXProject "RawajTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0637B872857BA7D00303D48;
+			productRefGroup = B0637B912857BA7D00303D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0637B8F2857BA7D00303D48 /* RawajTask */,
+				B0637BA82857BA7F00303D48 /* RawajTaskTests */,
+				B0637BB22857BA7F00303D48 /* RawajTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0637B8E2857BA7D00303D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0637C072857D06300303D48 /* ArticlesCell.xib in Resources */,
+				B0637BA32857BA7E00303D48 /* LaunchScreen.storyboard in Resources */,
+				B0637BA02857BA7E00303D48 /* Assets.xcassets in Resources */,
+				B0637B9B2857BA7D00303D48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BA72857BA7F00303D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BB12857BA7F00303D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3880660450057ECCAD38F38B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RawajTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849D858C0839C2224D14F399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RawajTask/Pods-RawajTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RawajTask/Pods-RawajTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RawajTask/Pods-RawajTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE418D9A9286929D47F790A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RawajTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF0A529F6AE44DB7328ABCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RawajTask-RawajTaskUITests/Pods-RawajTask-RawajTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RawajTask-RawajTaskUITests/Pods-RawajTask-RawajTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RawajTask-RawajTaskUITests/Pods-RawajTask-RawajTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E71D057E53115918CC3D86F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RawajTask-RawajTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0637B8C2857BA7D00303D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0637BF92857BB7400303D48 /* UIColor+++.swift in Sources */,
+				B0637C062857D06300303D48 /* ArticlesCell.swift in Sources */,
+				B0637BED2857BB6800303D48 /* UIApplication+++.swift in Sources */,
+				B0637BCA2857BAB500303D48 /* EndPoint.swift in Sources */,
+				B0A8A5912859170F0055ADD6 /* UIStoryboard+++.swift in Sources */,
+				B0637B982857BA7D00303D48 /* ViewController.swift in Sources */,
+				B0637BF22857BB6800303D48 /* UIWindow+++.swift in Sources */,
+				B0637C0B2857E54D00303D48 /* UIFont+++.swift in Sources */,
+				B0637BF02857BB6800303D48 /* PinterestLayoutDelegate.swift in Sources */,
+				B0637C012857C44000303D48 /* nytimesModel.swift in Sources */,
+				B0637BF12857BB6800303D48 /* UIView+++.swift in Sources */,
+				B0A8A5942859189D0055ADD6 /* ArticleDetailsView.swift in Sources */,
+				B0637B942857BA7D00303D48 /* AppDelegate.swift in Sources */,
+				B0637C092857DF4300303D48 /* UILabel+++.swift in Sources */,
+				B0637BFB2857BB7400303D48 /* LightTheme.swift in Sources */,
+				B0637BEE2857BB6800303D48 /* UserDefaults+++.swift in Sources */,
+				B0637BFA2857BB7400303D48 /* Theme.swift in Sources */,
+				B0637BC92857BAB500303D48 /* Request.swift in Sources */,
+				B0637BEF2857BB6800303D48 /* ThemeManager.swift in Sources */,
+				B0637BD62857BACB00303D48 /* COCHBaseViewController.swift in Sources */,
+				B0637B9E2857BA7D00303D48 /* RawajTask.xcdatamodeld in Sources */,
+				B0637BFC2857BB7400303D48 /* DarkTheme.swift in Sources */,
+				B0637BDA2857BACB00303D48 /* ShowImageCell.swift in Sources */,
+				B0637BDB2857BACB00303D48 /* ShowingImageView.swift in Sources */,
+				B0637B962857BA7D00303D48 /* SceneDelegate.swift in Sources */,
+				B0637BEC2857BB6800303D48 /* LanguageManager.swift in Sources */,
+				B0637C032857CA7500303D48 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BA52857BA7F00303D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0637BAE2857BA7F00303D48 /* RawajTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0637BAF2857BA7F00303D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0637BB82857BA7F00303D48 /* RawajTaskUITests.swift in Sources */,
+				B0637BBA2857BA7F00303D48 /* RawajTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0637BAB2857BA7F00303D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0637B8F2857BA7D00303D48 /* RawajTask */;
+			targetProxy = B0637BAA2857BA7F00303D48 /* PBXContainerItemProxy */;
+		};
+		B0637BB52857BA7F00303D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0637B8F2857BA7D00303D48 /* RawajTask */;
+			targetProxy = B0637BB42857BA7F00303D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0637B992857BA7D00303D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0637B9A2857BA7D00303D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0637BA12857BA7E00303D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0637BA22857BA7E00303D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0637BBB2857BA7F00303D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0637BBC2857BA7F00303D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0637BBE2857BA7F00303D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AEF281049ECDEA861C793A /* Pods-RawajTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RawajTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0637BBF2857BA7F00303D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BF93A1E708BE1E25F117CF /* Pods-RawajTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RawajTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0637BC12857BA7F00303D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8272B4C8C77A10AA8A99F8 /* Pods-RawajTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RawajTask.app/RawajTask";
+			};
+			name = Debug;
+		};
+		B0637BC22857BA7F00303D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3045499A01780349F3254F /* Pods-RawajTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RawajTask.app/RawajTask";
+			};
+			name = Release;
+		};
+		B0637BC42857BA7F00303D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D93589E559096BB77A52B9B /* Pods-RawajTask-RawajTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RawajTask;
+			};
+			name = Debug;
+		};
+		B0637BC52857BA7F00303D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34704D15F78EB063662A0498 /* Pods-RawajTask-RawajTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personalTest.RawajTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RawajTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0637B8B2857BA7D00303D48 /* Build configuration list for PBXProject "RawajTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0637BBB2857BA7F00303D48 /* Debug */,
+				B0637BBC2857BA7F00303D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0637BBD2857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0637BBE2857BA7F00303D48 /* Debug */,
+				B0637BBF2857BA7F00303D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0637BC02857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0637BC12857BA7F00303D48 /* Debug */,
+				B0637BC22857BA7F00303D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0637BC32857BA7F00303D48 /* Build configuration list for PBXNativeTarget "RawajTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0637BC42857BA7F00303D48 /* Debug */,
+				B0637BC52857BA7F00303D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0637B9C2857BA7D00303D48 /* RawajTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0637B9D2857BA7D00303D48 /* RawajTask.xcdatamodel */,
+			);
+			currentVersion = B0637B9D2857BA7D00303D48 /* RawajTask.xcdatamodel */;
+			path = RawajTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0637B882857BA7D00303D48 /* Project object */;
+}

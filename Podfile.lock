@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (5.2.2)
+  - InjectableLoggers (2.1.1)
+  - IQKeyboardManagerSwift (6.5.0)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - Loaf (0.7.0)
+  - Localize-Swift (2.0.0)
+  - RxAlamofire (5.7.0):
+    - RxAlamofire/Core (= 5.7.0)
+  - RxAlamofire/Core (5.7.0):
+    - Alamofire (~> 5.2)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageWebPCoder (0.8.4):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - Zoomy (4.0.0):
+    - InjectableLoggers (~> 2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2.2)
+  - IQKeyboardManagerSwift (= 6.5.0)
+  - KRProgressHUD (~> 3.4)
+  - Loaf
+  - Localize-Swift (~> 2.0)
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SDWebImageWebPCoder
+  - Zoomy (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - InjectableLoggers
+    - IQKeyboardManagerSwift
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - libwebp
+    - Loaf
+    - Localize-Swift
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - Zoomy
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  InjectableLoggers: 7bc1a68fb12d73785d3d50944a3f1744a8cea868
+  IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  RxAlamofire: 770e0bff75f5099251eefdb49aa86e4753e6f34d
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  Zoomy: 598d7a6d52567e4f8bf2e557907bbd9d7e725664
+
+PODFILE CHECKSUM: baedc8be4ab8b78b37d4675a8e868841942e78c2
+
+COCOAPODS: 1.10.2
